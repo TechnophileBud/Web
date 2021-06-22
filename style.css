@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(https://unsplash.com/photos/DJ7bWa-Gwks);
+	background-image: url("https://unsplash.com/photos/DJ7bWa-Gwks");
 	background-size: cover;
 	background-position: top center;
 	position: relative;
