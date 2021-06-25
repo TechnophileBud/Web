@@ -214,7 +214,7 @@ p {
     background-color: crimson;
     padding: 15px;
     width: 400px;
-    align: center;
+    align: left;
 }
 #hero::after {
 	content: '';
