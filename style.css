@@ -277,7 +277,7 @@ section .wave {
     position: absolute;
     bottom: 0px;
     left: 0;
-    width: 150%;
+    width: 100%;
     height: 100px;
     background: url(./images/wave.png);
     background-size: 1000px 100px;
@@ -571,7 +571,7 @@ section .wave.wave4 {
     	position: absolute;
     	bottom: 0px;
     	left: 0;
-    	width: 150%;
+    	width: 100%;
     	height: 100px;
     	background: url(./images/wave.png);
     	background-size: 1000px 100px;
