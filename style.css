@@ -554,7 +554,7 @@ section .wave.wave4 {
 /* End Keyframes */
 
 /* Media Query For Tablet */
-@media (max-width: 1028px) {
+@media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -703,7 +703,7 @@ section .wave.wave4 {
 /* End Media Query For Tablet */
 
 /* Media Query For Desktop */
-@media (max-width: 1028px) {
+@media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
 		display: none;
