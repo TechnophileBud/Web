@@ -272,7 +272,7 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-.btnred{
+#hero .btnred{
 	color:white;
 	background-color: crimson;
 	padding:5px;
