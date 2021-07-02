@@ -283,6 +283,7 @@ p {
 	height:50px;
         width:200px;
 	font-size: large;
+	cursor:pointer;
 	
 }
 /* wave in header */
