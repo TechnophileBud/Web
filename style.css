@@ -274,7 +274,10 @@ p {
 }
 #hero .btnred{
 	color:white;
-	background-color:red;
+	background-color:crimson;
+        padding:10px;
+         margin:5px;
+        letter-spacing:2px;
 	
 }
 /* wave in header */
