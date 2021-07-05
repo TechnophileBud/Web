@@ -272,6 +272,29 @@ p {
 	position: relative;
 	z-index: 1;
 }
+.btnred{
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		height: 5px;
+		line-height: 20px;
+		color: #FFFFFF;
+		font-family: 'Merienda', cursive;
+		width: 195px;
+		font-size: 26px;
+		font-weight: 100;
+		padding: 40px;
+		background-color: rgba(217, 147, 72, 0.73);
+		-webkit-box-shadow: 1px 1px 20px 0 #000000;
+		-moz-box-shadow: 1px 1px 20px 0 #000000;
+		box-shadow: 1px 1px 20px 0 #000000;
+		text-shadow: 1px 1px 20px #000000;
+		border: solid crimson 1px;
+		text-decoration: none;
+		display: inline-block;
+		cursor: pointer;
+		text-align: center;
+	 }
 /*.hero p {
     font-size: 30px;
     color: white;
