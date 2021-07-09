@@ -587,6 +587,67 @@ section .wave.wave4 {
 	font-weight: 500;
 }
 /*End contact Section */
+/* team section*/
+.container{
+	display: flex;
+	justify-content: center;
+    	flex-wrap: wrap;
+	align-items: center;
+	margin:0; padding:0;
+	box-sizing: border-box;
+}
+.card{
+  height: 540px;
+  width: 290px;	
+  margin: 20px;
+  box-shadow: 0 3px 5px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #222;
+
+}
+.card .bg-img img{
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0% 70%);
+}
+.card .member_img img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 10px solid #222;
+	margin-top: -90px;
+	position: relative;
+}
+.card .info h3{
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-size: 20px;
+	padding: 10px 0px;
+} 
+.card .info span{
+	font-size: 30px;
+	color: #e74c3c;
+	font-weight: bolder; 
+}
+.card .info p{
+	color: #999;
+	font-size: 13px;
+	padding: 0px 5px;
+} 
+.card .info .social_media a{
+  font-size: 20px;
+  text-decoration: none;	
+  color: #e74c3c;
+  margin-top: 20px;
+  padding: 0px 5px;
+}
+.card .info .social_media a:hover{
+  color: #f0f0f0;
+}
+/* team Section */
 
 
 
@@ -777,68 +838,7 @@ section .wave.wave4 {
 	}
 	/* End About */
 	/* team section*/
-.container{
-	display: flex;
-	justify-content: center;
-    	flex-wrap: wrap;
-	margin:0; padding:0;
-	box-sizing: border-box;
-	text-transform: capitalize;
-	transition: all .2s linear;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.card{
-  height: 540px;
-  width: 290px;	
-  margin: 20px;
-  box-shadow: 0 3px 5px #000;
-  border-radius: 10px;
-  overflow: hidden;
-  text-align: center;
-  background-color: #222;
 
-}
-.card .bg-img img{
-  width: 100%;
-  height: 230px;
-  object-fit: cover;
-  clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0% 70%);
-}
-.card .member_img img{
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	border: 10px solid #222;
-	margin-top: -90px;
-	position: relative;
-}
-.card .info h3{
-	text-transform: uppercase;
-	color: #f0f0f0;
-	font-size: 20px;
-	padding: 10px 0px;
-} 
-.card .info span{
-	font-size: 30px;
-	color: #e74c3c;
-	font-weight: bolder; 
-}
-.card .info p{
-	color: #999;
-	font-size: 13px;
-	padding: 0px 5px;
-} 
-.card .info .social_media a{
-  font-size: 20px;
-  text-decoration: none;	
-  color: #e74c3c;
-  margin-top: 11px;
-  padding: 0px 5px;
-}
-.card .info .social_media a:hover{
-  color: #f0f0f0;
-}
-/* team Section */
 
 	/* contact  */
 	#contact .contact {
