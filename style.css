@@ -770,8 +770,8 @@ section .wave.wave4 {
 	z-index: 20;
 }
 .testi-avatar img{
-	width: 100px;
-	height: 100px;
+	width: 140px;
+	height: 140px;
 	float: left;
 	border-radius: 100%;
 	border:6px solid #fff;
