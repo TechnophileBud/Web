@@ -633,6 +633,7 @@ section .wave.wave4 {
 	font-weight: bolder; 
 }
 .card .info p{
+	margin-top:15px;
 	color: #999;
 	font-size: 13px;
 	padding: 0px 5px;
@@ -641,7 +642,7 @@ section .wave.wave4 {
   font-size: 20px;
   text-decoration: none;	
   color: #e74c3c;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0px 5px;
 }
 .card .info .social_media a:hover{
