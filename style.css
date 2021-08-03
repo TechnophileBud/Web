@@ -659,7 +659,7 @@ section .wave.wave4 {
 	background: #fcfcfd;
 	z-index: 1;
 	width: 100%;
-    margin-top: 80px;
+    margin-top: -50px;
 }
 .section-separator {
 	float: left;
