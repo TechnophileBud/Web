@@ -1202,7 +1202,7 @@ h1{
 	  /* float: right; */
 	  opacity:0.9;
 	  padding: 15px;
-	  width:50%;
+	  width:45%;
 	  margin-top: 5%;
 	  font-size: 20px;
 	  font-weight: bold;
@@ -1211,7 +1211,6 @@ h1{
 	  border: 2px solid #ad83a1;
 	  box-shadow: 0 0 3px;
 	  right: 5%;
-  
    }
   input{
   
@@ -1260,12 +1259,13 @@ h1{
 	  
   }
   .message{
-  display: block;
-  float: right;
-  top: 23%;
-  right:5%;
-  position: absolute;
-  }
+	display: block;
+	float: right;
+	left: 42%;
+	top: 23%;
+	right:5%;
+	position: absolute;
+	}
   }
   @media only screen and (max-width:500px)
   {
