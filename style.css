@@ -517,7 +517,7 @@ section .wave.wave4 {
 
 /* About Section */
 #about .about {
-	flex-direction: column-reverse;
+
 	text-align: justify;
 	max-width: 1200px;
 	margin: 0 auto;
