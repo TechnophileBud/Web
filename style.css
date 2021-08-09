@@ -1221,95 +1221,85 @@ footer a:hover{
 	/* End contact  */
 }
 /*contact form*/
-h1{
-	text-align: center;
-	color: #485563;
-	font-size: 35px;
+.connect
+{
+	background-image: url("images/bg1.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* position: relative; */
+}
+.contact-form{
+  opacity:0.9;
+  background-color: white;
+  width: 33%;
+  padding:15px;
+  border: 2px  ;
+  box-shadow: 0 0 3px;
+  border-radius: 5%;
+  /* position: absolute; */
+}
+.connect h2{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: #485563;;
+}
+input[type="email"],input[type="number"] ,textarea{
+  width:93%
+}
+textarea{
+  padding: 10px;
+  font-size: 15px;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.name{
+  float: left;
 } 
+.icon {
+  padding: 10px;
+  color: rgb(158, 156, 156);
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field{
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (max-width:500px)
+{
   .contact-form
   {
-	  /* float: right; */
-	  opacity:0.9;
-	  padding: 15px;
-	  width:45%;
-	  margin-top: 5%;
-	  font-size: 20px;
-	  font-weight: bold;
-	  overflow: hidden;
-	  background-color: white;
-	  border: 2px solid #ad83a1;
-	  box-shadow: 0 0 3px;
-	  right: 5%;
-   }
+	  width: 100%;
+	  border-radius: 0;
+  }
   input{
-  
-	padding: 12px 20px;
-	margin: 20px 0;
-	display: inline-block;
-	background-color: rgb(19, 18, 18);
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	color: white;
+	  width: 92%;
   }
-  
-  button{
-	background-color: rgb(19, 18, 18);
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: 2px;
-   
-	border-radius: 4px;
-	
-  }
-  
-  button:hover {
-	background-color: #7b7b7b;
-	color: black;
-	font-weight: bold;
-  }
-  textarea{
-	margin: 20px 0;
-	background-color: rgb(19, 18, 18);
-	padding: 12px 10px;
-	border-radius: 4px;
-	color: white;
-  
-  }
-  
-  @media only screen and (min-width:500px)
+
+}
+@media only screen and (min-width:500px)
+{
+  .connect
   {
-  
-  .contact-form
-  {
-	  float: right;
+	  height: 800px;
 	  position: relative;
-	  
   }
-  .message{
-	display: block;
-	float: right;
-	left: 42%;
-	top: 23%;
-	right:5%;
-	position: absolute;
-	}
+  .contact-form{
+	  position: absolute;
+	  left: 30%;
+	  top: 20%;
   }
-  @media only screen and (max-width:500px)
-  {
-	div{
-	  width: 100%;
-	}
-	.contact-form
-  {
-	  float: none;
-	  width: 100%;
-  }
-  textarea{
-	width: 90%;
-  }
-  }
+}
   /*Contact form end*/
 
 /* End Media Query For Tablet */
