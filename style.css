@@ -858,55 +858,18 @@ section .wave.wave4 {
 
 
 /* Footer */
-/* #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-}
-#footer .footer {
-	min-height: 200px;
-	flex-direction: column;
-	padding-top: 50px;
-	padding-bottom: 10px;
-}
-#footer h2 {
-	color: white;
-	font-weight: 500;
-	font-size: 1.8rem;
-	letter-spacing: 0.1rem;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-#footer .social-icon {
-	display: flex;
-	margin-bottom: 30px;
-}
-#footer .social-item {
-	height: 50px;
-	width: 50px;
-	margin: 0 5px; */
-
-/* #footer .social-item img {
-	filter: grayscale(1);
-	transition: 0.3s ease filter;
-}
-#footer .social-item:hover img {
-	filter: grayscale(0);
-}
-#footer p {
-	color: white;
-	font-size: 1.3rem;
-} */
 footer{
   width: 100%;
   position:relative;
-  bottom: -150px;
+  bottom: 0px;
   left: 0;
   background: #29323C;
   
 }
 footer .content{
-  max-width: 1350px;
+  max-width: 1250px;
   margin: auto;
-  padding: 10px;
+  padding: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -924,11 +887,11 @@ footer .content .topic{
   font-size: 25px;
   font-weight: 600;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: -60px;
+  margin-top: 1	px;
+
 
 }
-
-
 footer .content p{
   text-align: justify;
 }
@@ -942,16 +905,16 @@ footer .content .middle{
   padding-left: 80px;
 }
 footer .right .topic{
-	margin-top: 45px;
+	margin-top: 1px;
+	margin-left: 50px;
 }
 footer .middle .topic{
-	margin-top: 45px;
-
-
+	margin-top: 1px;
 }
 footer .content .middle a{
-  line-height: 32px;
+  line-height: 15px;
 }
+
 /* footer .content .right input[type="text"]{
   height: 45px;
   width: 100%;
@@ -982,16 +945,17 @@ footer .content .middle a{
   color:  #f0e769;
 } */
 footer .content .media-icons a{
-  font-size: 40px;
-  height: 70px;
-  width: 70px;
+  font-size: 20px;
+  height: 30px;
+  width: 40px;
   display: inline-block;
   text-align: center;
-  line-height: 70px;
-  border-radius: 5px;
-  border: 2px solid #222222;
+  line-height: 25px;
+  border-radius: 40px;
+  /* border: 2px solid #1f1d1d; */
   margin: 30px 5px 0 0;
   transition: all 0.3s ease;
+
 }
 .content .media-icons a:hover{
   border-color: #f0e769;
